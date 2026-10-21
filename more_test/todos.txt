@@ -1,0 +1,1 @@
+['clean\n', 'throw\n', 'meet Tom\n']
