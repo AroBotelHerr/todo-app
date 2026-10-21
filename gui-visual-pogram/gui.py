@@ -14,7 +14,11 @@ while True:
 
     match event:
         case "Add":
-            todo = functions.get_todo()
+            todos = functions.get_todos()
+            new_todo = values['todo'] + "\n"
+            todos.append(new_todo)
+            functions.write_todos(todos)
+
 
 
 window.read()
